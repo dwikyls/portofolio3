@@ -7,7 +7,7 @@ $('#projek1').on('click', () =>{
 
     $('#works').append(`
     <div class="card mb-3" style="width: 30rem;">
-      <img class="card-img-top img-fluid" src="src/media/1.png">
+      <img class="card-img-top img-fluid" src="./src/media/1.png">
       <div class="card-body">
         <h5 class="card-title">Belajar Bareng</h5>
         <p class="card-text">Sebuah Website yang saya buat bersama team saya untuk mempermudah para         pelajar dalam mencari materi belajar di internet, terutama untuk para disabilitas.</p>
@@ -22,7 +22,7 @@ $('#projek1').on('click', () =>{
 
     $('#works').append(`
     <div class="card mb-3" style="width: 30rem;">
-      <img class="card-img-top img-fluid" src="src/media/2.png">
+      <img class="card-img-top img-fluid" src="./src/media/2.png">
       <div class="card-body">
         <h5 class="card-title">Portofolio Pertama</h5>
         <p class="card-text">Ini merupakan website portofolio pertama yang saya buat saat mengikut workshop DSC UNAIR tentang PWA.
@@ -38,7 +38,7 @@ $('#projek1').on('click', () =>{
 
     $('#works').append(`
     <div class="card mb-3" style="width: 30rem;">
-      <img class="card-img-top img-fluid" src="src/media/3.png">
+      <img class="card-img-top img-fluid" src="./src/media/3.png">
       <div class="card-body">
         <h5 class="card-title">Portofolio Kedua</h5>
         <p class="card-text">Ini merupakan website portofolio kedua saya. saya membuat ini untuk memnuhi submission Dicoding.
