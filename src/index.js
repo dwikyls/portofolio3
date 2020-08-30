@@ -7,7 +7,7 @@ $('#projek1').on('click', () =>{
 
     $('#works').append(`
     <div class="card mb-3" style="width: 30rem;">
-      <img class="card-img-top img-fluid" src="./src/images/1.png">
+      <img class="card-img-top img-fluid" src="./media/1.png">
       <div class="card-body">
         <h5 class="card-title">Belajar Bareng</h5>
         <p class="card-text">Sebuah Website yang saya buat bersama team saya untuk mempermudah para         pelajar dalam mencari materi belajar di internet, terutama untuk para disabilitas.</p>
@@ -22,7 +22,7 @@ $('#projek1').on('click', () =>{
 
     $('#works').append(`
     <div class="card mb-3" style="width: 30rem;">
-      <img class="card-img-top img-fluid" src="./src/images/2.png">
+      <img class="card-img-top img-fluid" src="./media/2.png">
       <div class="card-body">
         <h5 class="card-title">Portofolio Pertama</h5>
         <p class="card-text">Ini merupakan website portofolio pertama yang saya buat saat mengikut workshop DSC UNAIR tentang PWA.
@@ -38,7 +38,7 @@ $('#projek1').on('click', () =>{
 
     $('#works').append(`
     <div class="card mb-3" style="width: 30rem;">
-      <img class="card-img-top img-fluid" src="./src/images/3.png">
+      <img class="card-img-top img-fluid" src="./media/3.png">
       <div class="card-body">
         <h5 class="card-title">Portofolio Kedua</h5>
         <p class="card-text">Ini merupakan website portofolio kedua saya. saya membuat ini untuk memnuhi submission Dicoding.
@@ -49,27 +49,27 @@ $('#projek1').on('click', () =>{
     `);
   })
 
-// $.getJSON('https://www.googleapis.com/youtube/v3/channels?key=AIzaSyC28h1S_kId35V6n0wR749yLrndF0yZyXM&id=UCVwgoAo21UE-LoAo1nDLA-w&part=snippet,statistics', (result) =>{
-//   let data = result.items[0].snippet;
-//   let data2 = result.items[0].statistics;
+$.getJSON('https://www.googleapis.com/youtube/v3/channels?key=AIzaSyC28h1S_kId35V6n0wR749yLrndF0yZyXM&id=UCVwgoAo21UE-LoAo1nDLA-w&part=snippet,statistics', (result) =>{
+  let data = result.items[0].snippet;
+  let data2 = result.items[0].statistics;
   
-//   $('#thumb1').append(`
-//     <img src="${data.thumbnails.medium.url}" class="rounded-circle img-thumbnail img-fluid">
-//   `)
+  $('#thumb1').append(`
+    <img src="${data.thumbnails.medium.url}" class="rounded-circle img-thumbnail img-fluid">
+  `)
 
-//   $('#title1').append(`
-//     <h2>${data.title}</h2>
-//     <p>Subscriber: ${data2.subscriberCount}</p>
-//   `)
-// })
+  $('#title1').append(`
+    <h2>${data.title}</h2>
+    <p>Subscriber: ${data2.subscriberCount}</p>
+  `)
+})
 
-// $.getJSON('https://www.googleapis.com/youtube/v3/search?key=AIzaSyC28h1S_kId35V6n0wR749yLrndF0yZyXM&part=snippet&channelId=UCVwgoAo21UE-LoAo1nDLA-w&order=date&maxResults=1', (result) =>{
-//   let video = result.items[0].id.videoId;
+$.getJSON('https://www.googleapis.com/youtube/v3/search?key=AIzaSyC28h1S_kId35V6n0wR749yLrndF0yZyXM&part=snippet&channelId=UCVwgoAo21UE-LoAo1nDLA-w&order=date&maxResults=1', (result) =>{
+  let video = result.items[0].id.videoId;
 
-//   $('#embvideo').append(`
-//     <iframe width="275px" src="https://www.youtube.com/embed/${video}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-//   `)
-// })
+  $('#embvideo').append(`
+    <iframe width="275px" src="https://www.youtube.com/embed/${video}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  `)
+})
 
 
 
