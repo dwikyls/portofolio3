@@ -8,10 +8,21 @@
   }
 
   body{
-    background: rgb(255,255,255);
-background: linear-gradient(90deg, rgba(255,255,255,0.5) 0%, rgba(94,94,245,0.5) 100%);
+    background-image: url('https://i.imgur.com/fpQP07Z.png');
+    background-repeat: no-repeat;
   }
-  .trans-bg-1{
-    background: rgb(255,255,255);
-background: linear-gradient(90deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.5) 100%);
+  .color-white{
+    color: white;
+  }
+  #about{
+    background-image: url('https://i.imgur.com/RtlUnMk.png');
+    background-repeat: no-repeat;
+  }
+  #work{
+    background-image: url('https://i.imgur.com/5XUIfW6.png');
+    background-repeat: no-repeat;
+  }
+  #contact{
+    background-image: url('https://i.imgur.com/cqntY0t.png');
+    background-repeat: no-repeat;
   }
