@@ -6,7 +6,7 @@ $('#projek1').on('click', () =>{
     $('#works').html('')
 
     $('#works').append(`
-    <div class="card mb-3" style="width: 30rem;">
+    <div class="card mb-3" style="max-width: 30rem;">
       <img class="card-img-top img-fluid" src="https://i.imgur.com/HiveX1O.png">
       <div class="card-body">
         <h5 class="card-title">Belajar Bareng</h5>
@@ -21,7 +21,7 @@ $('#projek1').on('click', () =>{
     $('#works').html('')
 
     $('#works').append(`
-    <div class="card mb-3" style="width: 30rem;">
+    <div class="card mb-3" style="max-width: 30rem;">
       <img class="card-img-top img-fluid" src="https://i.imgur.com/mr9INQP.png">
       <div class="card-body">
         <h5 class="card-title">Portofolio Pertama</h5>
@@ -37,7 +37,7 @@ $('#projek1').on('click', () =>{
     $('#works').html('')
 
     $('#works').append(`
-    <div class="card mb-3" style="width: 30rem;">
+    <div class="card mb-3" style="max-width: 30rem;">
       <img class="card-img-top img-fluid" src="https://i.imgur.com/mr9INQP.png">
       <div class="card-body">
         <h5 class="card-title">Portofolio Kedua</h5>
@@ -67,9 +67,6 @@ $.getJSON('https://www.googleapis.com/youtube/v3/search?key=AIzaSyC28h1S_kId35V6
   let video = result.items[0].id.videoId;
 
   $('#embvideo').append(`
-    <iframe width="275px" src="https://www.youtube.com/embed/${video}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="345px" src="https://www.youtube.com/embed/${video}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   `)
 })
-
-
-

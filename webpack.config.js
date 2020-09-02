@@ -29,13 +29,6 @@ module.exports = {
                     presets: ["@babel/preset-env"]
                 }
             }]
-        },
-        {
-            //url loader
-            test: /\.(jpg|png)$/,
-            use: {
-                loader: 'url-loader'
-            }
         }]
     },
     plugins: [
