@@ -6,7 +6,7 @@ $('#projek1').on('click', () =>{
     $('#works').html('')
 
     $('#works').append(`
-    <div class="card mb-3" style="max-width: 30rem;">
+    <div class="card mb-3" style="max-width: 30rem; min-width: 20rem;">
       <img class="card-img-top img-fluid" src="https://i.imgur.com/HiveX1O.png">
       <div class="card-body">
         <h5 class="card-title">Belajar Bareng</h5>
@@ -21,7 +21,7 @@ $('#projek1').on('click', () =>{
     $('#works').html('')
 
     $('#works').append(`
-    <div class="card mb-3" style="max-width: 30rem;">
+    <div class="card mb-3" style="max-width: 30rem; min-width: 20rem;">
       <img class="card-img-top img-fluid" src="https://i.imgur.com/mr9INQP.png">
       <div class="card-body">
         <h5 class="card-title">Portofolio Pertama</h5>
@@ -37,7 +37,7 @@ $('#projek1').on('click', () =>{
     $('#works').html('')
 
     $('#works').append(`
-    <div class="card mb-3" style="max-width: 30rem;">
+    <div class="card mb-3" style="max-width: 30rem; min-width: 20rem;">
       <img class="card-img-top img-fluid" src="https://i.imgur.com/mr9INQP.png">
       <div class="card-body">
         <h5 class="card-title">Portofolio Kedua</h5>
